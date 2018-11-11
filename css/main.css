@@ -3,12 +3,24 @@ h1 {
     font-weight: 800;
 }
 
-h1 {
+h2 {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .placeholder {
     border-top: 1px solid #666;
     border-left: 1px solid #666;
     padding: 3em;
+}
+
+input[type="button"].cta-button {
+    color: #d9534f;
+    border: 2px solid #d9534f;
+}
+
+input[type="button"].cta-button:hover {
+    color: #fff;
+    border: 2px solid #d9534f;
+    background-color: #d9534f;
 }
