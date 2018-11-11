@@ -26,9 +26,15 @@
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="img/favicon.png">
-
+  
+  <script type="text/javascript" src="js/countdown.js" ></script>
+  <script type="text/javascript">
+     function onReady() {
+       earthCounter("countdown"); 
+     }
+  </script>
 </head>
-<body>
+<body onLoad="javascript:onReady()">
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -39,6 +45,7 @@
       </div>
       <div class="ten columns">
         <h1>EarthStrike · Jan 15, 2019</h1>
+        <div id="countdown" />
       </div>
     </div>
 

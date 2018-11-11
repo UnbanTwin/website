@@ -24,3 +24,7 @@ input[type="button"].cta-button:hover {
     border: 2px solid #d9534f;
     background-color: #d9534f;
 }
+#countdown {
+    font-family: 'Montserrat', sans-serif;
+    font-size:18pt;
+}
