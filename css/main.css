@@ -1,3 +1,7 @@
+
+body {
+    background-color: #4fb56e !important;
+}
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
@@ -50,4 +54,16 @@ input[type="button"].cta-button:hover {
 
 .social-icon:hover {
     color: #222;
+}
+.center {
+    text-align: center;
+}
+#changingText {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 15%;
+}
+#continueButton {
+    font-size:20px;
+    border-radius:3px;
 }
